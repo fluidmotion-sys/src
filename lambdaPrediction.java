@@ -23,7 +23,7 @@ public class lambdaPrediction {
         int rand_int16 = rand.nextInt(256);
         int rand_int40 = rand.nextInt(384);
         Consumer<List<Integer>>
-            dispList = list -> list.stream().forEach(a -> System.out.print(a+" "));
+            dispList = list -> list.stream().forEach(b -> System.out.print(b+" "));
         List<Integer> list = new ArrayList<Integer>();
         list.add(rand_int16);
         list.add(rand_int40);
