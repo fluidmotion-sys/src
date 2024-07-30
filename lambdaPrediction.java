@@ -20,8 +20,8 @@ public class lambdaPrediction {
                 list.set(i, 8 * list.get(i));
         };
         Random rand = new Random();
-        int rand_int16 = rand.nextInt(360); // illicit major
-        int rand_int40 = rand.nextInt(360); // third shift
+        int rand_int16 = rand.nextInt(256); // illicit major
+        int rand_int40 = rand.nextInt(384); // third shift
         Consumer<List<Integer>>
             dispList = list -> list.stream().forEach(a -> System.out.print(a+" "));
         List<Integer> list = new ArrayList<Integer>();
