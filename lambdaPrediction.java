@@ -17,7 +17,7 @@ public class lambdaPrediction {
     public static void main(String args[])
     {   Consumer<List<Integer>> modify = list -> {
             for (int i = 0; i < list.size(); i++)
-                list.set(i, 8 * list.get(i));
+                list.set(i, list.get(i));
         };
         Random rand = new Random();
         int rand_int16 = rand.nextInt(256); // illicit major
