@@ -11,10 +11,10 @@
 import java.util.Arrays;
 public class convexFlow implements signal {
   public convexFlow (){}
-  int[] array = {3375, 1000, 10647472, 264, 4913};
+  int[] array = {3375, 1000, 10648, 264, 4913};
   int min = Arrays.stream(array).min().getAsInt();
   int max = Arrays.stream(array).max().getAsInt();
-  int f = max-min;
+  int f = max-min; // float to int
   public void flow()
   {
     int j = array.length;
