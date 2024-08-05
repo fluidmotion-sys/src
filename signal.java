@@ -10,7 +10,7 @@
 -----------------------------------------------------------------------------*/
 public interface signal {
   void flow();
-} // contact
+} // stress
 
 interface addSig {
   public void MC();
