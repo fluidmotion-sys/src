@@ -9,9 +9,9 @@
 -------------------------------------------------------------------------------
 -----------------------------------------------------------------------------*/
 public interface signal {
-  void contact();
-} // pipe
+  void flow();
+} // contact
 
 interface addSig {
-  public void myMethod();
+  public void MC();
 } // sample temperature
