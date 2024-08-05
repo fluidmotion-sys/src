@@ -13,5 +13,5 @@ public interface signal {
 } // stress
 
 interface addSig {
-  public void int();
+  public void value();
 } // temperature
